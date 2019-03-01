@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Image} from 'react-native';
 
-export default class LinksScreen extends React.Component {
+export default class InfoScreen extends React.Component {
   static navigationOptions = {
     title: 'Information',
   };

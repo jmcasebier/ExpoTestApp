@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import {Video} from 'expo';
 
-export default class SettingsScreen extends React.Component {
+export default class Test2 extends React.Component {
   static navigationOptions = {
     title: 'Test 2: Video Stream',
   };

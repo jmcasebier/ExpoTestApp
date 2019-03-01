@@ -3,16 +3,16 @@ import { Platform } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
-import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
-import SettingsScreen from '../screens/SettingsScreen';
-import WebScreen from '../screens/WebScreen';
+import Test1 from '../screens/Test1';
+import InfoScreen from '../screens/InfoScreen';
+import Test2 from '../screens/Test2';
+import Test3 from '../screens/Test3';
 
-const HomeStack = createStackNavigator({
-  Home: HomeScreen,
+const LocationStack = createStackNavigator({
+  Home: Test1,
 });
 
-HomeStack.navigationOptions = {
+LocationStack.navigationOptions = {
   tabBarLabel: 'Test 1',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
@@ -22,11 +22,11 @@ HomeStack.navigationOptions = {
   ),
 };
 
-const LinksStack = createStackNavigator({
-  Links: LinksScreen,
+const InfoStack = createStackNavigator({
+  Links: InfoScreen,
 });
 
-LinksStack.navigationOptions = {
+InfoStack.navigationOptions = {
   tabBarLabel: 'Information',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
@@ -36,11 +36,11 @@ LinksStack.navigationOptions = {
   ),
 };
 
-const SettingsStack = createStackNavigator({
-  Settings: SettingsScreen,
+const VideoStack = createStackNavigator({
+  Settings: Test2,
 });
 
-SettingsStack.navigationOptions = {
+VideoStack.navigationOptions = {
   tabBarLabel: 'Test 2',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
@@ -51,7 +51,7 @@ SettingsStack.navigationOptions = {
 };
 
 const WebStack = createStackNavigator({
-  Web: WebScreen,
+  Web: Test3,
 });
 
 WebStack.navigationOptions = {
@@ -65,8 +65,8 @@ WebStack.navigationOptions = {
 };
 
 export default createBottomTabNavigator({
-  LinksStack,
-  HomeStack,
-  SettingsStack,
+  InfoStack,
+  LocationStack,
+  VideoStack,
   WebStack,
 });

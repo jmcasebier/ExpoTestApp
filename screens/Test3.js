@@ -2,7 +2,7 @@ import React from 'react';
 import { ScrollView, FlatList, Image, Text, StyleSheet } from 'react-native';
 import { WebBrowser } from 'expo';
 
-export default class WebScreen extends React.Component {
+export default class Test3 extends React.Component {
   static navigationOptions = {
     title: 'Test 3: Web Browser',
   };

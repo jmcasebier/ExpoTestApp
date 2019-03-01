@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View, Button} from 'react-native';
 import {MapView, Location, Permissions} from 'expo';
 
-export default class HomeScreen extends React.Component {
+export default class Test1 extends React.Component {
   static navigationOptions = {
     title: 'Test 1: Current Location',
   };
