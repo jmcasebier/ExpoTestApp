@@ -9,7 +9,7 @@ import Test2 from '../screens/Test2';
 import Test3 from '../screens/Test3';
 
 const LocationStack = createStackNavigator({
-  Home: Test1,
+  Location: Test1,
 });
 
 LocationStack.navigationOptions = {
@@ -23,7 +23,7 @@ LocationStack.navigationOptions = {
 };
 
 const InfoStack = createStackNavigator({
-  Links: InfoScreen,
+  Info: InfoScreen,
 });
 
 InfoStack.navigationOptions = {
@@ -37,7 +37,7 @@ InfoStack.navigationOptions = {
 };
 
 const VideoStack = createStackNavigator({
-  Settings: Test2,
+  Video: Test2,
 });
 
 VideoStack.navigationOptions = {
