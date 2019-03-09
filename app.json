@@ -27,6 +27,7 @@
     },
     "android": {
       "package": "com.jasoncasebier.expoTestApp"
-    }
+    },
+    "description": ""
   }
 }
