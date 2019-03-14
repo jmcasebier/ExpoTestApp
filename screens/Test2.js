@@ -8,12 +8,12 @@ export default class Test2 extends React.Component {
   };
 
   render() {
-    const sourceStr = 'https://www.nasa.gov/';
+    const sourceStr = 'https://www.pixabay.com/';
     return(
       <View style={{flex: 1}}>
       <View style={{flex: 9, alignItems: 'center', justifyContent: 'center'}}>
         <Video
-          source={{uri: "https://www.nasa.gov/sites/default/files/files/Apollo_11_moonwalk_montage_720p.mov"}}
+          source={{uri: "https://player.vimeo.com/external/178513668.hd.mp4?s=303b5872a66b955a7471d23c87940bff2c1e5047&profile_id=174&oauth2_token_id=57447761"}}
           useNativeControls
           resizeMode='contain'
           style={{width: 340, height: 195}}
